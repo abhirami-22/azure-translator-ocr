@@ -1,0 +1,64 @@
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	margin-top: 30px;
+	float: right;
+}
+
+.logo
+{
+	width: 50%;
+	height: 50%;
+}
+
+
+/* ====== BUTTON ======*/
+.btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
+.btn-grad {
+   padding: 10px 20px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ 
+ /* ======= LIST ========*/            
+ ul {
+	display: block;
+	margin-left: -10px;
+  }
+  
+  ul li {
+	display: block;
+	position: relative;
+  }
+  
+  ul li:not(:last-child) {
+	margin-bottom: 10px;
+  }
+  
+  ul li:before {
+	content: "";
+	position: absolute;
+	top: 1.2em;
+	left: -30px;
+	margin-top: -.7em;
+	background: #FF512F;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+  }
+	  
